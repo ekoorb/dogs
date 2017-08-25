@@ -1,14 +1,67 @@
 <!DOCTYPE html>
 <html>
- <head><title>Example web page</title></head>
- <body> 
+<head>
+<style>
+div.container {
+    width: 100%;
+    border: 1px solid pink;
+}
 
-  <h1 style= "text align= center;" DOGS </h1>
-   <p> Welcome to my web page about dogs. I love dogs. 
-   Dogs are the most beautiful thing on this planet. Heres a picture of
-    a beautiful great dane and a lab puppy. &#9825;
-    </p>
-   <img src="https://ekoorb.github.io/dogs\pupper.jpg" alt="Great dane with a lil pup">
-   <p><a href="http://www.corepaws.com/">Visit here to adopt some dogs!</a></p>
- </body>
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: pink;
+    clear: left;
+    text-align: center;
+}
+
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+   
+nav ul a {
+    text-decoration: none;
+}
+
+article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<header>
+   <h1>Dogs</h1>
+</header>
+  
+<nav>
+  <ul>
+    <li><a href="#http://www.corepaws.com/adoption/">Dog adoptions</a></li>
+  </ul>
+</nav>
+
+<article>
+  
+  <p>Dogs are the most beautiful thiong on this planet. We dont deserve those loyal beings.</p>
+  <p> Here is a picture of a Great Dane and a Labrador.</p>
+</article>
+<img src="https://ekoorb.github.io/dogs\pupper.jpg" alt="Great dane with a lil pup">
+<footer>Copyright &copy; ekoorb
+
+</div>
+
+</body>
 </html>
