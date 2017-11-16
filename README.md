@@ -1,2 +1,2 @@
 # hp data
-https://ekoorb.github.io/dogs/
+https://ekoorb.github.io/hospitaldata/
