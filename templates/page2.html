@@ -1,1 +1,17 @@
+{% extends "layout.html" %}
+{% set active_page = "page2" %}
 
+{% block title %}Page2{% endblock %}
+  
+{% block content %}
+    <!--page content-->
+    
+    <h1>Speciality</h1>
+    <form action='/'>
+    Please type in the practice you are looking for.(Genitourinary,Eye,Nervous system, Musculoskeletal,SKin, Gastrointestinal,Cardiovascular)<br>
+      <input type="text" name="symbol">
+      <br><br>
+      <input type="submit">
+    </form>
+    <p>{{ response }}</p>
+{% endblock %}
