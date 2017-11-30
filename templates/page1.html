@@ -1,1 +1,17 @@
+{% extends "layout.html" %}
+{% set active_page = "page1" %}
 
+{% block title %}Page1{% endblock %}
+  
+{% block content %}
+    <!--page content-->
+    
+    <h1>Home Page</h1>
+    <form action='/'>
+     Please type in your state to find hospitals near you. <br>
+      <input type="text" name="symbol">
+      <br><br>
+      <input type="submit">
+    </form>
+    <p>{{ response }}</p>
+{% endblock %}
