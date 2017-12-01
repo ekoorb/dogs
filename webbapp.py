@@ -129,10 +129,20 @@ def render_page2():
     reply=""
     if 'symbol' in request.args:
         name = request.args['symbol']   
-        if name == 'carbon':
+        if name == 'Genitourinary':
              reply = "C"
-        elif name == 'sulfur':
-             reply = "S"            
+        elif name == 'Eye':
+             reply = "S"
+        elif name == 'Nervous System':
+             reply = "S"                
+        elif name == 'Musculoskeletal':
+             reply = "S"    
+        elif name == 'Skin':
+             reply = "S"    
+         elif name == 'Gastrointestinal':
+             reply = "S"    
+         elif name == 'Cardiovascular':
+             reply = "S"    
     return render_template('page2.html', response = reply)
     
     
