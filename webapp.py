@@ -25,7 +25,7 @@ def render_page1():
         reply="try again!"
         name = request.args['symbol']
         if name == 'Arizona':
-            reply = "yo"""
+            reply = "Type": "Acute Care Hospitals"""
         elif name == 'Arkansas':
             reply = "yo"""
         elif name == 'California':
